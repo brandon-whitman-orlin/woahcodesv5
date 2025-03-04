@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Blog.css";
 
 
-function Home() {
+function Blog() {
   useEffect(() => {
     const timer = setTimeout(() => {
       window.scrollTo(0, 0);
@@ -19,4 +19,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Blog;
