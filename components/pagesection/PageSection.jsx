@@ -175,10 +175,11 @@ const PageSection = ({
               <h3>{titles[index] || "Default Title"}</h3>
               <p>{descriptions[index] || "Default description"}</p>
               <SynchronizedVideo
-                src={media}
-                isImage={index >= videos.length}
-                className="media-item"
-              />
+  src={media}
+  isImage={index >= videos.length}
+  className={`media-item media-item-${index + 1}`} // Adds index-based class
+/>
+
             </a>
           </div>
         ))}
