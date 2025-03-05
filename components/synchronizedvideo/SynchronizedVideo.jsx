@@ -94,6 +94,7 @@ const SynchronizedVideo = ({ src, className = "", isImage = false }) => {
           loop
           playsInline
           aria-hidden="true"
+          type="video/mp4"
           onLoadedData={() => setReady((prev) => ({ ...prev, grayscale: true }))}
         />
       )}
@@ -116,6 +117,7 @@ const SynchronizedVideo = ({ src, className = "", isImage = false }) => {
           loop
           playsInline
           aria-hidden="true"
+          type="video/mp4"
           onLoadedData={() => setReady((prev) => ({ ...prev, color: true }))}
         />
       )}
