@@ -293,7 +293,7 @@
     }
 
     .timeline-information .timeline-information-components {
-        height: 75%;
+        height: fit-content;
     }
 
     .timeline {
